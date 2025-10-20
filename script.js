@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
     letterMessage: `Ngày 20/10 đã đến rồi! Chúc bạn luôn mỉm cười, yêu đời và nhận được vô vàn quà tặng bất ngờ. Bạn xứng đáng với tất cả những điều tốt đẹp và ngọt ngào nhất trên thế giới này!`,
     signature: "Mãi yêu! 😘"
         },
+        {
+    recipientName: "hỡi các kho báu",
+    letterMessage: `Chúc mừng 20/10! Chúc các 'kho báu' luôn được nâng niu, trân trọng và giữ gìn cẩn thận.\n\nHãy luôn nhớ rằng bạn là độc nhất vô nhị và tỏa sáng theo cách riêng của mình. Chúc bạn một ngày thật nhiều niềm vui và hạnh phúc!`,
+    signature: "Người tìm kho báu! 😉"
+        },
         // --- Nhóm lời chúc Dễ thương & Ngọt ngào ---
         {
             recipientName: "một nửa thế giới siêu đáng yêu",
@@ -212,4 +217,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.addEventListener('click', playMusic, { once: true });
 });
+
 
