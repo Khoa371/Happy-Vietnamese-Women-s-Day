@@ -4,6 +4,26 @@ document.addEventListener('DOMContentLoaded', () => {
     // DANH SÁCH 20 LỜI CHÚC HAY NHẤT VÀ ĐA DẠNG
     // =================================================================
     const messages = [
+        {
+    recipientName: "một nửa thế giới siêu đáng yêu",
+    letterMessage: `Nhân ngày 20/10 đặc biệt, xin gửi ngàn lời chúc ngọt ngào như những viên kẹo đến các bạn nữ xinh xắn.\n\nChúc các bạn luôn vui tươi, cười xinh như hoa và mỗi ngày đều là một ngày thật an yên, hạnh phúc. Hãy luôn nhớ rằng bạn là một ngôi sao lấp lánh và xứng đáng nhận được những điều tuyệt vời nhất nhé!`,
+    signature: "Gửi ngàn tim! ❤️"
+        },
+        {
+    recipientName: "những thiên thần xinh đẹp",
+    letterMessage: `Chúc mừng ngày Phụ nữ Việt Nam! Mong bạn có một ngày ngập tràn hoa và quà, luôn rạng rỡ, tự tin và được yêu thương. Hãy luôn là đóa hoa thơm ngát và tô điểm cho cuộc đời này nhé!`,
+    signature: "Yêu thương!"
+        },
+        {
+    recipientName: "những cô gái tuyệt vời",
+    letterMessage: `Happy Vietnamese Women's Day! Chúc bạn một ngày 20/10 thật ý nghĩa, nhận được nhiều sự quan tâm và luôn cảm thấy hạnh phúc. Hãy luôn mạnh khỏe, thành công và tỏa sáng theo cách riêng của mình nhé.`,
+    signature: "Thân mến!"
+        },
+        {
+    recipientName: "những bông hoa xinh đẹp nhất",
+    letterMessage: `Ngày 20/10 đã đến rồi! Chúc bạn luôn mỉm cười, yêu đời và nhận được vô vàn quà tặng bất ngờ. Bạn xứng đáng với tất cả những điều tốt đẹp và ngọt ngào nhất trên thế giới này!`,
+    signature: "Mãi yêu! 😘"
+        },
         // --- Nhóm lời chúc Dễ thương & Ngọt ngào ---
         {
             recipientName: "một nửa thế giới siêu đáng yêu",
@@ -192,3 +212,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.addEventListener('click', playMusic, { once: true });
 });
+
